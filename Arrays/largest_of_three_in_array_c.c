@@ -39,8 +39,19 @@ void print3largest(int arr[], int arr_size)
 /* Driver program to test above function */
 int main()
 {
-	int arr[] = { 12, 13, 1, 10, 34, 1 };
-	int n = sizeof(arr) / sizeof(arr[0]);
+// 	int arr[] = { 12, 13, 1, 10, 34, 1 };
+// 	int n = sizeof(arr) / sizeof(arr[0]);
+// 	print3largest(arr, n);
+	
+	int n;
+	printf("\nEnter the Size of Array: ");
+	scanf("%d", &n);
+	int arr[n];
+	printf("Enter the Array Element:\n");
+	for(int i=0; i<n; i++){
+	    scanf("%d", &arr[i]);
+	}
 	print3largest(arr, n);
+	
 	return 0;
 }
