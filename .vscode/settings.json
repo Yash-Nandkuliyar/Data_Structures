@@ -1,3 +1,5 @@
 {
-    "cmake.configureOnOpen": false
+    "cmake.configureOnOpen": false,
+    "C_Cpp.default.compilerPath": "c:\\BOX1\\c_c++__base\\mingw32\\include\\libcharset.h",
+    "C_Cpp.errorSquiggles": "disabled"
 }
