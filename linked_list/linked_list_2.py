@@ -68,15 +68,15 @@ class SLL:
                             break
                         temp=temp.next      
 
-#driver code    
-mylist=SLL()
-mylist.insert_at_start(20)
-#mylist.insert_at_start(40)
-mylist.insert_after(mylist.search(20),25)
-##mylist.insert_at_end(35)
-#mylist.insert_at_end(36)
-mylist.printlist()
-mylist.delete_item(20)
-print() 
-mylist.printlist()
-print()
+# #driver code    
+# mylist=SLL()
+# mylist.insert_at_start(20)
+# #mylist.insert_at_start(40)
+# mylist.insert_after(mylist.search(20),25)
+# ##mylist.insert_at_end(35)
+# #mylist.insert_at_end(36)
+# mylist.printlist()
+# mylist.delete_item(20)
+# print() 
+# mylist.printlist()
+# print()
